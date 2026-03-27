@@ -41,44 +41,153 @@ My philosophy: **great architecture is invisible** — it enables speed, scale, 
 
 <div align="center">
 
-### ⚛️ Frontend & Frameworks
-![React](https://img.shields.io/badge/React.js-Expert-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-Expert-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-Expert-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript_ES6+-Expert-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-Advanced-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL_(Apollo)-Advanced-E10098?style=flat-square&logo=graphql&logoColor=white)
+<style>
+  .skills-wrap { padding: 1.5rem 0; }
+  .section { margin-bottom: 2rem; }
+  .section-header {
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 1rem; padding-bottom: 0.5rem;
+    border-bottom: 0.5px solid var(--color-border-tertiary);
+  }
+  .section-icon {
+    width: 28px; height: 28px; border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; flex-shrink: 0;
+  }
+  .section-title {
+    font-size: 13px; font-weight: 500; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--color-text-secondary);
+  }
+  .pills { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pill {
+    display: flex; align-items: center; gap: 0;
+    border-radius: 8px; overflow: hidden;
+    border: 0.5px solid var(--color-border-tertiary);
+    font-size: 13px; cursor: default;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .pill:hover { transform: translateY(-1px); border-color: var(--color-border-secondary); }
+  .pill-name {
+    padding: 5px 10px 5px 10px;
+    color: var(--color-text-primary);
+    font-weight: 500;
+    background: var(--color-background-primary);
+  }
+  .pill-level {
+    padding: 5px 9px;
+    font-size: 11px; font-weight: 500; letter-spacing: 0.03em;
+  }
+  .lv-expert   { background: #042C53; color: #85B7EB; }
+  .lv-advanced { background: #085041; color: #5DCAA5; }
+  .lv-int      { background: #2C2C2A; color: #B4B2A9; }
 
-### 🗂️ State & Styling
-![Redux](https://img.shields.io/badge/Redux-Advanced-764ABC?style=flat-square&logo=redux&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-Advanced-orange?style=flat-square)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Expert-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Material UI](https://img.shields.io/badge/Material_UI-Advanced-0081CB?style=flat-square&logo=mui&logoColor=white)
+  .icon-fe  { background: #E6F1FB; color: #185FA5; }
+  .icon-st  { background: #E1F5EE; color: #0F6E56; }
+  .icon-arc { background: #EEEDFE; color: #534AB7; }
+  .icon-cd  { background: #FAEEDA; color: #854F0B; }
+  .icon-cms { background: #FAECE7; color: #993C1D; }
+  .icon-ai  { background: #FBEAF0; color: #993556; }
 
-### 🏗️ Architecture
-![Micro-Frontends](https://img.shields.io/badge/Micro--Frontends-Expert-6C63FF?style=flat-square)
-![Monorepo](https://img.shields.io/badge/Monorepo_(NX,_Turborepo)-Expert-1A1A2E?style=flat-square)
-![Design Systems](https://img.shields.io/badge/Atomic_Design_Systems-Expert-FF6B35?style=flat-square)
-![Webpack](https://img.shields.io/badge/Webpack-Advanced-8DD6F9?style=flat-square&logo=webpack&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-Advanced-646CFF?style=flat-square&logo=vite&logoColor=white)
+  @media (prefers-color-scheme: dark) {
+    .lv-expert   { background: #0C447C; color: #B5D4F4; }
+    .lv-advanced { background: #085041; color: #9FE1CB; }
+    .lv-int      { background: #444441; color: #D3D1C7; }
+    .icon-fe  { background: #042C53; color: #85B7EB; }
+    .icon-st  { background: #04342C; color: #5DCAA5; }
+    .icon-arc { background: #26215C; color: #AFA9EC; }
+    .icon-cd  { background: #412402; color: #FAC775; }
+    .icon-cms { background: #4A1B0C; color: #F0997B; }
+    .icon-ai  { background: #4B1528; color: #ED93B1; }
+    .pill-name { background: var(--color-background-secondary); }
+  }
+</style>
 
-### ☁️ Cloud & DevOps
-![Azure](https://img.shields.io/badge/Azure_DevOps-Advanced-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-Advanced-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-Advanced-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-Advanced-C21325?style=flat-square&logo=jest&logoColor=white)
-![Cypress](https://img.shields.io/badge/Cypress-Advanced-17202C?style=flat-square&logo=cypress&logoColor=white)
-![Storybook](https://img.shields.io/badge/Storybook-Advanced-FF4785?style=flat-square&logo=storybook&logoColor=white)
+<div class="skills-wrap">
 
-### 📦 CMS & Databases
-![AEM](https://img.shields.io/badge/Adobe_AEM-Advanced-FF0000?style=flat-square&logo=adobe&logoColor=white)
-![Contentful](https://img.shields.io/badge/Contentful-Advanced-2478CC?style=flat-square&logo=contentful&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Intermediate-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Intermediate-47A248?style=flat-square&logo=mongodb&logoColor=white)
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon icon-fe">⚛</div>
+      <span class="section-title">Frontend &amp; Frameworks</span>
+    </div>
+    <div class="pills">
+      <div class="pill"><span class="pill-name">React.js</span><span class="pill-level lv-expert">Expert</span></div>
+      <div class="pill"><span class="pill-name">Next.js</span><span class="pill-level lv-expert">Expert</span></div>
+      <div class="pill"><span class="pill-name">TypeScript</span><span class="pill-level lv-expert">Expert</span></div>
+      <div class="pill"><span class="pill-name">JavaScript ES6+</span><span class="pill-level lv-expert">Expert</span></div>
+      <div class="pill"><span class="pill-name">Node.js</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">GraphQL (Apollo)</span><span class="pill-level lv-advanced">Advanced</span></div>
+    </div>
+  </div>
 
-### 🤖 AI & Emerging Tech
-![Generative AI](https://img.shields.io/badge/Generative_AI_Integration-Advanced-412991?style=flat-square&logo=openai&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-Advanced-FF6B6B?style=flat-square)
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon icon-st">🗂</div>
+      <span class="section-title">State &amp; Styling</span>
+    </div>
+    <div class="pills">
+      <div class="pill"><span class="pill-name">Redux</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">Zustand</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">Tailwind CSS</span><span class="pill-level lv-expert">Expert</span></div>
+      <div class="pill"><span class="pill-name">Material UI</span><span class="pill-level lv-advanced">Advanced</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon icon-arc">🏗</div>
+      <span class="section-title">Architecture</span>
+    </div>
+    <div class="pills">
+      <div class="pill"><span class="pill-name">Micro-Frontends</span><span class="pill-level lv-expert">Expert</span></div>
+      <div class="pill"><span class="pill-name">Monorepo — NX, Turborepo</span><span class="pill-level lv-expert">Expert</span></div>
+      <div class="pill"><span class="pill-name">Atomic Design Systems</span><span class="pill-level lv-expert">Expert</span></div>
+      <div class="pill"><span class="pill-name">Webpack</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">Vite</span><span class="pill-level lv-advanced">Advanced</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon icon-cd">☁</div>
+      <span class="section-title">Cloud &amp; DevOps</span>
+    </div>
+    <div class="pills">
+      <div class="pill"><span class="pill-name">Azure DevOps</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">AWS</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">CI/CD</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">Jest</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">Cypress</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">Storybook</span><span class="pill-level lv-advanced">Advanced</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon icon-cms">📦</div>
+      <span class="section-title">CMS &amp; Databases</span>
+    </div>
+    <div class="pills">
+      <div class="pill"><span class="pill-name">Adobe AEM</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">Contentful</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">PostgreSQL</span><span class="pill-level lv-int">Intermediate</span></div>
+      <div class="pill"><span class="pill-name">MongoDB</span><span class="pill-level lv-int">Intermediate</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon icon-ai">🤖</div>
+      <span class="section-title">AI &amp; Emerging Tech</span>
+    </div>
+    <div class="pills">
+      <div class="pill"><span class="pill-name">Generative AI Integration</span><span class="pill-level lv-advanced">Advanced</span></div>
+      <div class="pill"><span class="pill-name">Prompt Engineering</span><span class="pill-level lv-advanced">Advanced</span></div>
+    </div>
+  </div>
+
+</div>
+
+
 
 </div>
 
