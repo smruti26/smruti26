@@ -37,7 +37,8 @@ Principal UI Architect with **15+ years of experience** building scalable enterp
 
 ## 🤝 Connect With Me
 
-[![Email](https://img.shields.io/badge/Email-ranjanbehera26%40gmail.com-blue?style=flat&logo=gmail)](mailto:ranjanbehera26@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Smruti_Ranjan_Behera-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/smruti-ranjan-behera-0a0bb019c/)
+[![Email](https://img.shields.io/badge/Email-ranjanbehera26%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ranjanbehera26@gmail.com)
 
 ---
 
