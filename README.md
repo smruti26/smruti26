@@ -1,6 +1,6 @@
 # Hi, I'm Smruti Ranjan Behera 👋
 
-**Solutions Principal UI Architect · Associate Director | Enterprise Frontend Platforms · React Ecosystem**
+**Solutions Principal UI Architect | Associate Director | Enterprise Frontend Platforms | React Ecosystem**
 
 📍 Bengaluru, India &nbsp;|&nbsp; 📞 +91-8861056101 &nbsp;|&nbsp; 📧 ranjanbehera26@gmail.com
 
